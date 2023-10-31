@@ -1,0 +1,634 @@
+:root{
+    /* ### Primary */
+    --Pink: hsl(322, 100%, 66%);
+
+
+/* ### Neutral */
+
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.one{
+    height: 100vh;
+    background-image: url(./images/bg-hero-desktop.svg);
+    padding: 2rem 4rem;
+}
+.one nav{
+    display: flex;
+    justify-content: space-between;
+}
+.one nav img{
+    height: 1rem;
+}
+.one nav button{
+    height: 2rem;
+    width: 10rem;
+    border: none;
+    border-radius: 1rem;
+    color: var(--Very-Dark-Cyan);
+    font-weight: 700;
+    background-color: white;
+    box-shadow: 0.1rem 0.1rem 0.3rem gray;
+}
+
+
+.one .content{
+    display: flex;
+    margin-top: 2rem;
+}
+.one .left{
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.one .left h2{
+    font-size: 3rem;
+    width: 80%;
+    color: var(--Very-Dark-Cyan);
+}
+.one .left p{
+    color: var(--Very-Dark-Cyan);
+    width: 74%;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.one .left button{
+    background-color: var(--Pink);
+    color: white;
+    border: none;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.one .right{
+    background-image: url(./images/illustration-mockups.svg);
+    width: 50%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin-top: -5rem;
+}
+
+
+
+.two{
+    margin: 10rem 5rem;
+    padding: 3rem;
+    height: 60vh;
+    display: flex;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem gray;    
+}
+
+.two .right{
+    background-image: url(./images/illustration-grow-together.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%; 
+    height: 100%; 
+      
+
+}
+
+.two .left{
+    margin-top: 5rem;
+    width: 50%;
+}
+
+.two .left h2{
+    width: 50%;
+    color: var(--Very-Dark-Cyan);
+    font-size: 2rem;
+}
+.two .left p{
+    width: 80%;
+    font-size: 1.1rem;
+    color: var(--Very-Dark-Cyan);
+
+}
+
+
+.three{
+    margin: 10rem 5rem;
+    padding: 3rem;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem gray;    
+}
+
+
+.three .left{
+    background-image: url(./images/illustration-flowing-conversation.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: 50%; 
+    height: 100%;     
+
+}
+.three .right{
+    width: 50%;
+}
+
+
+
+.three .right h2{
+    color: var(--Very-Dark-Cyan);
+    font-size: 2rem;
+}
+.three .right p{
+    font-size: 1.1rem;
+    color: var(--Very-Dark-Cyan);
+
+}
+
+
+.four{
+    margin: 10rem 5rem;
+    padding: 3rem;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem gray;    
+}
+
+
+.four .right{
+    background-image: url(./images/illustration-your-users.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: 50%; 
+    height: 100%;     
+
+}
+.four .left{
+    width: 50%;
+}
+
+
+
+.four .left h2{
+    color: var(--Very-Dark-Cyan);
+    font-size: 2rem;
+}
+.four .left p{
+    font-size: 1.1rem;
+    color: var(--Very-Dark-Cyan);
+    width: 80%;
+
+}
+
+
+.build{
+    width: 50%;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0px auto;
+    text-align: center;
+    padding: 5rem 1rem;
+    font-size: 1.5rem;
+    color: var(--Very-Dark-Cyan);
+}
+.build button{
+    background-color: var(--Pink);
+    width: 50%;
+    height: 3rem;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem gray;
+    color: white;
+}
+
+
+.end{
+    background-color: var(--Very-Dark-Cyan);
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    margin-top: -7rem;
+}
+
+.end ul{
+    display: flex;
+    justify-content: space-between;  
+    list-style-type: none;  
+}
+
+.end ul li{
+    text-decoration: none;
+}
+
+
+.end ul a{
+    text-decoration: none;
+    color: white;
+    width: 15rem;
+    display: flex;
+
+}
+
+.end .links .logo div{
+    margin-top: 1rem;
+    display: flex;
+
+}
+
+
+.end .links{
+    margin: 10rem 5rem 3rem;
+}
+.end .links .location img{
+    height: 1.3rem;
+    width: 1rem;
+
+}
+
+.end .links div a{
+    margin-left: 1rem;
+}
+
+.end .links .logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.end .links .about a{
+
+    margin-top: 1rem;
+}
+
+.end .links .career a{
+    margin-top: 1rem;
+}
+
+
+.end .links .social{
+    display: flex;
+    width: 10rem;
+    margin-right: 7rem;
+}
+.end .links .social i{
+    height: 1rem;
+    width: 1rem;
+    padding: 0.5rem;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 50%;
+}
+.end .links .social a{
+    margin-top: 1rem;
+}
+
+
+.copy{
+    float: right;
+    margin-right: 5rem;
+    color: white;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+    color: white; 
+    margin-left: 20rem;
+}
+
+@media screen and (max-width: 500px) {
+
+    .inside h2{
+        font-size: 2rem;
+        color: var(--Very-Dark-Cyan);
+    }
+    .inside p{
+        margin-top: 1rem;
+    }
+
+    .one{
+        height: 100vh;
+        width: 100%;
+        background-image: url(./images/bg-hero-mobile.svg);
+        padding: 1rem ;
+        text-align: center;
+    }
+    .one nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .one nav img{
+        height: 1rem;
+    }
+    
+    
+    .one .content{
+        display: inline-block;
+        margin-top: 1rem;
+    }
+    .one .left{
+        width: 100%;
+        margin-top: 5rem;
+    }
+    
+    .one .left h2{
+        font-size: 2rem;
+        width: 100%;
+        color: var(--Very-Dark-Cyan);
+    }
+    .one .left p{
+        color: var(--Very-Dark-Cyan);
+        width: 100%;
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+    
+    .one .left button{
+        background-color: var(--Pink);
+        color: white;
+        border: none;
+        width: 15rem;
+        height: 2rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+    }
+    .one .right{
+        background-image: url(./images/illustration-mockups.svg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        margin-top: -10rem;
+    }
+
+
+    .two{
+        margin: 10rem 5rem;
+        padding: 3rem;
+        height: 60vh;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        border-radius: 1rem;
+        box-shadow: 0.1rem 0.1rem 0.3rem gray;    
+    }
+    
+    .two .right{
+        background-image: url(./images/illustration-grow-together.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+    
+    }
+    
+    .two .left{
+        width: 100%;
+    }
+    
+    .two .left h2{
+        width: 100%;
+        color: var(--Very-Dark-Cyan);
+        font-size: 2rem;
+    }
+    .two .left p{
+        width: 100%;
+        font-size: 1.1rem;
+        color: var(--Very-Dark-Cyan);
+    
+    }
+
+    .three{
+        margin: 10rem 5rem;
+        padding: 3rem;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 1rem;
+        box-shadow: 0.1rem 0.1rem 0.3rem gray;
+        text-align: center;    
+    }
+    
+    
+    .three .left{
+        background-image: url(./images/illustration-flowing-conversation.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%; 
+        height: 100%;     
+    
+    }
+    .three .right{
+        width: 100%;
+    }
+    
+    
+    
+    .three .right h2{
+        color: var(--Very-Dark-Cyan);
+        font-size: 2rem;
+    }
+    .three .right p{
+        font-size: 1.1rem;
+        color: var(--Very-Dark-Cyan);
+    
+    }
+    
+    
+    .four{
+        margin: 10rem 5rem;
+        padding: 3rem;
+        height: 60vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 1rem;
+        box-shadow: 0.1rem 0.1rem 0.3rem gray;    
+    }
+    
+    
+    .four .right{
+        background-image: url(./images/illustration-your-users.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%; 
+        height: 100%;     
+    
+    }
+    .four .left{
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    
+    .four .left h2{
+        color: var(--Very-Dark-Cyan);
+        font-size: 2rem;
+    }
+    .four .left p{
+        font-size: 1.1rem;
+        color: var(--Very-Dark-Cyan);
+        width: 100%;
+    
+    }
+
+    .build{
+        width: 80%;
+        background-color: white;
+        border-radius: 1rem;
+        margin: 0px auto;
+        text-align: center;
+        padding: 5rem 1rem;
+        font-size: 1rem;
+        color: var(--Very-Dark-Cyan);
+    }
+    .build button{
+        background-color: var(--Pink);
+        width: 80%;
+        height: 3rem;
+        border: none;
+        margin-top: 2rem;
+        border-radius: 1.5rem;
+        color: white;
+    }
+
+
+
+    .end{
+        background-color: var(--Very-Dark-Cyan);
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+        margin-top: -7rem;
+    }
+    
+    .end ul{
+        display: inline-block;
+        list-style-type: none;  
+        margin: 0rem -2rem ;
+    }
+    
+    .end ul li{
+        text-decoration: none;
+    }
+    
+    
+    .end ul a{
+        text-decoration: none;
+        color: white;
+        width: 15rem;
+        display: flex;
+    
+    }
+    
+    .end .links .logo div{
+        margin-top: 1rem;
+        display: flex;
+    
+    }
+    
+    
+    .end .links{
+        margin: 10rem 5rem 3rem;
+    }
+    .end .links .location img{
+        height: 1.3rem;
+        width: 1rem;
+    
+    }
+    
+    .end .links div img{
+        height: 1.2rem;
+        
+
+    }
+    .end .links div a{
+        margin-left: 1rem;
+        line-height: 2rem;
+        width: 100%;
+
+    }
+    
+    .end .links .logo{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .end .links .about a{
+    
+        margin-top: 1rem;
+    }
+    
+    .end .links .career a{
+        margin-top: 1rem;
+    }
+    
+    
+    .end .links .social{
+        display: flex;
+        width: 10rem;
+        margin-right: 7rem;
+    }
+    .end .links .social i{
+        height: 1rem;
+        width: 1rem;
+        padding: 0.5rem;
+        border: 2px solid white;
+        text-align: center;
+        border-radius: 50%;
+    }
+    .end .links .social a{
+        margin-top: 1rem;
+    }
+
+
+    .svg{
+        margin-left: -2rem;
+    }
+
+
+    .attribution { 
+        font-size: 11px;
+        text-align: center; 
+        color: white; 
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+
+    .copy{
+        float: none;
+        margin-left: 2rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+
+}
