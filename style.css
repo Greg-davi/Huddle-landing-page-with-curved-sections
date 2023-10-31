@@ -318,7 +318,7 @@
 @media screen and (max-width: 500px) {
 
     .inside h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: var(--Very-Dark-Cyan);
     }
     .inside p{
@@ -384,9 +384,10 @@
 
 
     .two{
-        margin: 10rem 5rem;
         padding: 3rem;
         height: 60vh;
+        width: 70%;
+        margin: 5rem 2rem;
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
@@ -410,7 +411,7 @@
     .two .left h2{
         width: 100%;
         color: var(--Very-Dark-Cyan);
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .two .left p{
         width: 100%;
@@ -420,9 +421,10 @@
     }
 
     .three{
-        margin: 10rem 5rem;
         padding: 3rem;
         height: 60vh;
+        width: 70%;
+        margin: 5rem 2rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -450,7 +452,8 @@
     
     .three .right h2{
         color: var(--Very-Dark-Cyan);
-        font-size: 2rem;
+        font-size: 1.7rem;
+        width: 100%;
     }
     .three .right p{
         font-size: 1.1rem;
@@ -460,9 +463,10 @@
     
     
     .four{
-        margin: 10rem 5rem;
+        margin: 5rem 2rem;
         padding: 3rem;
         height: 60vh;
+        width: 70%;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -523,10 +527,11 @@
 
     .end{
         background-color: var(--Very-Dark-Cyan);
-        width: 100vw;
+        width: 100%;
         position: absolute;
         z-index: -1;
         margin-top: -7rem;
+        padding-right: -10rem;
     }
     
     .end ul{
@@ -556,7 +561,8 @@
     
     
     .end .links{
-        margin: 10rem 5rem 3rem;
+        margin: 10rem 0rem 0rem;
+        padding: 0rem 5rem;
     }
     .end .links .location img{
         height: 1.3rem;
